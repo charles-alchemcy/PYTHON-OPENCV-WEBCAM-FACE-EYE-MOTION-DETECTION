@@ -2,7 +2,6 @@ import cv2
 
 # Create video object
 video = cv2.VideoCapture(0)
-
 while True:
     # Capture each frame of the video
     ret, frame = video.read()

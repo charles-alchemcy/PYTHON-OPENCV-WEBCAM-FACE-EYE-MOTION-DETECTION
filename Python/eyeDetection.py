@@ -4,8 +4,6 @@ import os
 # Load and create faceCascade Classifier
 eyePath = os.path.dirname(cv2.__file__)+"/data/haarcascade_eye.xml"
 eyeCascade = cv2.CascadeClassifier(eyePath)
-
-# Create 'video' and 'out' objects ('out' is the video that will be saved)
 video = cv2.VideoCapture(0)
 out = cv2.VideoWriter('eyeDetection.mp4', -1, 20.0, (640,480))
 
