@@ -10,6 +10,7 @@ df = df = pandas.DataFrame(columns = ['Start Motion', 'End Motion'])  # this dat
 
 video = cv2.VideoCapture(0)
 
+
 while True:
     # Start the Video and motion's counter #
     ret, frames = video.read()

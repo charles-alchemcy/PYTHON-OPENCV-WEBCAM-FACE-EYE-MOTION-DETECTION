@@ -15,6 +15,7 @@ while True:
     #cv2.imshow('WebCam', grayscale_channel) # grayscale video (256 levels)
     cv2.imshow('Webcam', colorfull_channel) # colored video ([256, 256, 256] levels)
     
+    
     # Press 'q' (quit '-') key to close the cam
     if cv2.waitKey(1) & 0xFF == ord('q'): break
 
